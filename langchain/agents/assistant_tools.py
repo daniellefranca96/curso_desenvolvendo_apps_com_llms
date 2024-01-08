@@ -2,7 +2,7 @@ from langchain.agents.openai_assistant import OpenAIAssistantRunnable
 from langchain.agents import AgentExecutor, load_tools
 import os
 
-os.environ['OPENAI_API_KEY']='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'
+os.environ['OPENAI_API_KEY']='YOUR_API_KEY'
 
 tools = load_tools(
     ["arxiv"],
